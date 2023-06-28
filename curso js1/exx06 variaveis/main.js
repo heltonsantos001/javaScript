@@ -1,5 +1,5 @@
 //no javaScript temos 3 tipos de variaveis
-
+//const, let, var
 
 /* diferença entre as variaveis */
 
