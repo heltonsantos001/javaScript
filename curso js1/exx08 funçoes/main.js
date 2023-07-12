@@ -78,3 +78,47 @@ function fatorial(n) {
 console.log(fatorial(5))
 
 //recursividade
+
+//arrow function
+/*
+(a, b) => {
+    return a + b;
+}
+
+(a, b) => a + b;
+*/
+
+let a = 5;
+let b = 10;
+
+let c = (n1, n2) => n1 + n2;
+
+console.log(c(a,b))
+
+let d = (x, y) => {
+    let op;
+
+    if (x > 5) {
+        op = x * y;
+    } else {
+        op = x / y;
+    }
+    return op;
+}
+alert(d(a, b))
+let frase = "eu amo minha namorada";
+
+let arrowFunction = () => frase.split('+');
+alert(arrowFunction(frase))
+
+let camisas = [
+    { preco: 50},
+    {preco: 30},
+    {preco: 15},
+    {preco: 45},
+]
+
+let camisaMaior50 = camisas.filter((camisa) => {
+    return camisa.preco > 25
+});
+console.log(camisaMaior50)

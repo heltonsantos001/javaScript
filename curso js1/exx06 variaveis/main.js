@@ -15,7 +15,7 @@ alert(pote)
 */
 
 //declarando variaveis
-var a,b,c;
+var a, b, c;
 var nome, sobrenome, nomeCompleto;
 //atribuiçao de valores
 
@@ -24,9 +24,9 @@ b = 4;
 c = a + b;
 
 
-nome='helton ';
-sobrenome='santos';
-nomeCompleto=nome + sobrenome
+nome = 'helton ';
+sobrenome = 'santos';
+nomeCompleto = nome + sobrenome
 alert(nomeCompleto);
 
 document.querySelector("#texto").innerHTML = nomeCompleto;
